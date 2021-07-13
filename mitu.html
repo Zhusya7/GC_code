@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>米兔练习</title>
+    <style>
+
+        .box1{
+            width: 132px;
+            height: 271px;
+            margin: 0 auto;
+            background-image: url(./动画/bigtap-mitu-queue-big.png);
+            background-position: 0px 0;
+            /* transition: steps(3) 1s; */
+            animation: mitu  1s infinite steps(3);
+
+        }
+        .box1:hover{
+            background-position: -396px 0;
+        }
+        @keyframes mitu {
+            from{
+                background-position: 0px 0;
+            }
+
+            to{
+                background-position: -396px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+
+
+    <div class="box1">
+
+    </div>
+</body>
+</html>
